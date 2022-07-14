@@ -1,0 +1,3 @@
+23:17:34.322 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53599 : 1
+23:17:34.326 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x31a4bb2e, L:/127.0.0.1:53604 ! R:localhost/127.0.0.1:53599] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+23:17:34.326 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x31a4bb2e, L:/127.0.0.1:53604 ! R:localhost/127.0.0.1:53599]

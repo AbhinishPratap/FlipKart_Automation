@@ -1,0 +1,15 @@
+16:28:22.221 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/9a47113f52cb2fcb1d425169e825b90d/window HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:55697
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 12
+

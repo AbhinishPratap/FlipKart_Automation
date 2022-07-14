@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="15" total="35" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T21:03:50 IST" name="Suite" finished-at="2022-07-14T21:06:39 IST" duration-ms="168840">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T21:03:50 IST" name="Test" finished-at="2022-07-14T21:06:39 IST" duration-ms="168840">
+      <class name="Test.Element_Selection">
+        <test-method is-config="true" signature="setReports()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:03:50 IST" name="setReports" finished-at="2022-07-14T21:03:50 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReports -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:03:50 IST" name="initializedriver" finished-at="2022-07-14T21:03:51 IST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:03:51 IST" name="openurl" finished-at="2022-07-14T21:04:11 IST" duration-ms="19671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:11 IST" name="startTest" finished-at="2022-07-14T21:04:11 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Element_Selection.Test_Add_To_Cart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Test_Add_To_Cart()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:11 IST" name="Test_Add_To_Cart" finished-at="2022-07-14T21:04:22 IST" duration-ms="10801" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"}
+  (Session info: headless chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'IN-706M2J3', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7b701919b1fe89247f74261cd3a6627, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ABHINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52571}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52571/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7b701919b1fe89247f74261cd3a6627]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"}
+  (Session info: headless chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'IN-706M2J3', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7b701919b1fe89247f74261cd3a6627, findElement {using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ABHINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52571}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52571/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7b701919b1fe89247f74261cd3a6627
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+at Page.Selection.Item_Add_To_Cart(Selection.java:45)
+at Test.Element_Selection.Test_Add_To_Cart(Element_Selection.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Add_To_Cart -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:22 IST" name="atestCaseResult" finished-at="2022-07-14T21:04:22 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Add_To_Cart status=FAILURE method=Element_Selection.Test_Add_To_Cart()[pri:0, instance:Test.Element_Selection@55b5e331] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:22 IST" name="endTest" finished-at="2022-07-14T21:04:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:22 IST" name="testClose" finished-at="2022-07-14T21:04:23 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:23 IST" name="initializedriver" finished-at="2022-07-14T21:04:23 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:23 IST" name="openurl" finished-at="2022-07-14T21:04:27 IST" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:27 IST" name="startTest" finished-at="2022-07-14T21:04:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Element_Selection.Test_Element()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Test_Element()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:27 IST" name="Test_Element" finished-at="2022-07-14T21:04:27 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Element -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:27 IST" name="endTest" finished-at="2022-07-14T21:04:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:27 IST" name="testClose" finished-at="2022-07-14T21:04:28 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:04:27 IST" name="atestCaseResult" finished-at="2022-07-14T21:04:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Element status=SUCCESS method=Element_Selection.Test_Element()[pri:0, instance:Test.Element_Selection@55b5e331] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Test.Element_Selection@55b5e331]" started-at="2022-07-14T21:06:39 IST" name="endReport" finished-at="2022-07-14T21:06:39 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Test.Element_Selection -->
+      <class name="Test.Category_Test">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:04:58 IST" name="initializedriver" finished-at="2022-07-14T21:04:59 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:04:59 IST" name="openurl" finished-at="2022-07-14T21:05:03 IST" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:03 IST" name="startTest" finished-at="2022-07-14T21:05:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Category_Test.Appliance_Categories()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Appliance_Categories()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:03 IST" name="Appliance_Categories" finished-at="2022-07-14T21:05:05 IST" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appliance_Categories -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:05 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Appliance_Categories status=SUCCESS method=Category_Test.Appliance_Categories()[pri:0, instance:Test.Category_Test@62d0ac62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:05 IST" name="endTest" finished-at="2022-07-14T21:05:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:05 IST" name="testClose" finished-at="2022-07-14T21:05:05 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:05 IST" name="initializedriver" finished-at="2022-07-14T21:05:06 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:06 IST" name="openurl" finished-at="2022-07-14T21:05:10 IST" duration-ms="4078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Categories()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:10 IST" name="Categories" finished-at="2022-07-14T21:05:11 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Categories -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:10 IST" name="startTest" finished-at="2022-07-14T21:05:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Category_Test.Categories()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:11 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Categories status=SUCCESS method=Category_Test.Categories()[pri:0, instance:Test.Category_Test@62d0ac62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:11 IST" name="endTest" finished-at="2022-07-14T21:05:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:11 IST" name="testClose" finished-at="2022-07-14T21:05:11 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:11 IST" name="initializedriver" finished-at="2022-07-14T21:05:12 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:12 IST" name="openurl" finished-at="2022-07-14T21:05:16 IST" duration-ms="3755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:16 IST" name="startTest" finished-at="2022-07-14T21:05:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Category_Test.Mobile_Category()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Mobile_Category()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:16 IST" name="Mobile_Category" finished-at="2022-07-14T21:05:21 IST" duration-ms="5270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile_Category -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:21 IST" name="testClose" finished-at="2022-07-14T21:05:21 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:21 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Mobile_Category status=SUCCESS method=Category_Test.Mobile_Category()[pri:0, instance:Test.Category_Test@62d0ac62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Category_Test@62d0ac62]" started-at="2022-07-14T21:05:21 IST" name="endTest" finished-at="2022-07-14T21:05:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Test.Category_Test -->
+      <class name="Test.SocialMedia_Test">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:21 IST" name="initializedriver" finished-at="2022-07-14T21:05:22 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:22 IST" name="openurl" finished-at="2022-07-14T21:05:26 IST" duration-ms="4316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="FaceBook()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:26 IST" name="FaceBook" finished-at="2022-07-14T21:05:27 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaceBook -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:26 IST" name="startTest" finished-at="2022-07-14T21:05:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.SocialMedia_Test.FaceBook()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:27 IST" name="endTest" finished-at="2022-07-14T21:05:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:27 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FaceBook status=SUCCESS method=SocialMedia_Test.FaceBook()[pri:0, instance:Test.SocialMedia_Test@150d80c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:27 IST" name="testClose" finished-at="2022-07-14T21:05:27 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:27 IST" name="initializedriver" finished-at="2022-07-14T21:05:27 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:27 IST" name="openurl" finished-at="2022-07-14T21:05:32 IST" duration-ms="4622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Youtube()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:32 IST" name="Youtube" finished-at="2022-07-14T21:05:32 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Youtube -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:32 IST" name="startTest" finished-at="2022-07-14T21:05:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.SocialMedia_Test.Youtube()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:32 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Youtube status=SUCCESS method=SocialMedia_Test.Youtube()[pri:0, instance:Test.SocialMedia_Test@150d80c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:32 IST" name="endTest" finished-at="2022-07-14T21:05:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:32 IST" name="testClose" finished-at="2022-07-14T21:05:32 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:32 IST" name="initializedriver" finished-at="2022-07-14T21:05:33 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:33 IST" name="openurl" finished-at="2022-07-14T21:05:39 IST" duration-ms="5625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:39 IST" name="startTest" finished-at="2022-07-14T21:05:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.SocialMedia_Test.pop_Up()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="pop_Up()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:39 IST" name="pop_Up" finished-at="2022-07-14T21:05:39 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pop_Up -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:39 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pop_Up status=SUCCESS method=SocialMedia_Test.pop_Up()[pri:0, instance:Test.SocialMedia_Test@150d80c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:39 IST" name="endTest" finished-at="2022-07-14T21:05:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.SocialMedia_Test@150d80c4]" started-at="2022-07-14T21:05:39 IST" name="testClose" finished-at="2022-07-14T21:05:39 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- Test.SocialMedia_Test -->
+      <class name="Test.Fashion">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:28 IST" name="initializedriver" finished-at="2022-07-14T21:04:28 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:28 IST" name="openurl" finished-at="2022-07-14T21:04:33 IST" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:33 IST" name="startTest" finished-at="2022-07-14T21:04:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Fashion.Electronics_Item()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Electronics_Item()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:33 IST" name="Electronics_Item" finished-at="2022-07-14T21:04:35 IST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Electronics_Item -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:35 IST" name="endTest" finished-at="2022-07-14T21:04:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:35 IST" name="testClose" finished-at="2022-07-14T21:04:35 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:35 IST" name="atestCaseResult" finished-at="2022-07-14T21:04:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Electronics_Item status=SUCCESS method=Fashion.Electronics_Item()[pri:0, instance:Test.Fashion@771158fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:35 IST" name="initializedriver" finished-at="2022-07-14T21:04:36 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:36 IST" name="openurl" finished-at="2022-07-14T21:04:42 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:42 IST" name="startTest" finished-at="2022-07-14T21:04:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Fashion.Home_Test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Home_Test()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:42 IST" name="Home_Test" finished-at="2022-07-14T21:04:44 IST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Test -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:44 IST" name="testClose" finished-at="2022-07-14T21:04:44 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:44 IST" name="atestCaseResult" finished-at="2022-07-14T21:04:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Home_Test status=SUCCESS method=Fashion.Home_Test()[pri:0, instance:Test.Fashion@771158fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:44 IST" name="endTest" finished-at="2022-07-14T21:04:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:44 IST" name="initializedriver" finished-at="2022-07-14T21:04:44 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:44 IST" name="openurl" finished-at="2022-07-14T21:04:49 IST" duration-ms="4731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Other_Categories()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:49 IST" name="Other_Categories" finished-at="2022-07-14T21:04:51 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Other_Categories -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:49 IST" name="startTest" finished-at="2022-07-14T21:04:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Fashion.Other_Categories()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:51 IST" name="endTest" finished-at="2022-07-14T21:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:51 IST" name="testClose" finished-at="2022-07-14T21:04:51 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:51 IST" name="atestCaseResult" finished-at="2022-07-14T21:04:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Other_Categories status=SUCCESS method=Fashion.Other_Categories()[pri:0, instance:Test.Fashion@771158fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:51 IST" name="initializedriver" finished-at="2022-07-14T21:04:52 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:52 IST" name="openurl" finished-at="2022-07-14T21:04:56 IST" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:56 IST" name="startTest" finished-at="2022-07-14T21:04:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Fashion.fashion()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="fashion()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:56 IST" name="fashion" finished-at="2022-07-14T21:04:58 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fashion -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:58 IST" name="atestCaseResult" finished-at="2022-07-14T21:04:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fashion status=SUCCESS method=Fashion.fashion()[pri:0, instance:Test.Fashion@771158fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:58 IST" name="endTest" finished-at="2022-07-14T21:04:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Fashion@771158fb]" started-at="2022-07-14T21:04:58 IST" name="testClose" finished-at="2022-07-14T21:04:58 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- Test.Fashion -->
+      <class name="Test.Test_Search">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:39 IST" name="initializedriver" finished-at="2022-07-14T21:05:40 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:40 IST" name="openurl" finished-at="2022-07-14T21:05:53 IST" duration-ms="13077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:53 IST" name="startTest" finished-at="2022-07-14T21:05:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Test_Search.Valid_Search_Test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Valid_Search_Test()[pri:1, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:53 IST" name="Valid_Search_Test" finished-at="2022-07-14T21:05:53 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_Search_Test -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:53 IST" name="endTest" finished-at="2022-07-14T21:05:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:53 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Valid_Search_Test status=SUCCESS method=Test_Search.Valid_Search_Test()[pri:1, instance:Test.Test_Search@41c89d2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:53 IST" name="testClose" finished-at="2022-07-14T21:05:53 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:53 IST" name="initializedriver" finished-at="2022-07-14T21:05:54 IST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:54 IST" name="openurl" finished-at="2022-07-14T21:05:58 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:58 IST" name="startTest" finished-at="2022-07-14T21:05:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Test_Search.InValid_Search_Test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InValid_Search_Test()[pri:2, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:58 IST" name="InValid_Search_Test" finished-at="2022-07-14T21:05:58 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValid_Search_Test -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:58 IST" name="endTest" finished-at="2022-07-14T21:05:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:58 IST" name="atestCaseResult" finished-at="2022-07-14T21:05:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValid_Search_Test status=SUCCESS method=Test_Search.InValid_Search_Test()[pri:2, instance:Test.Test_Search@41c89d2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:58 IST" name="testClose" finished-at="2022-07-14T21:05:58 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:58 IST" name="initializedriver" finished-at="2022-07-14T21:05:59 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:05:59 IST" name="openurl" finished-at="2022-07-14T21:06:05 IST" duration-ms="6077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Blank_Search_Test()[pri:3, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:06:05 IST" name="Blank_Search_Test" finished-at="2022-07-14T21:06:05 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_Search_Test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:06:05 IST" name="startTest" finished-at="2022-07-14T21:06:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Test_Search.Blank_Search_Test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:06:05 IST" name="endTest" finished-at="2022-07-14T21:06:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:06:05 IST" name="testClose" finished-at="2022-07-14T21:06:05 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Test_Search@41c89d2f]" started-at="2022-07-14T21:06:05 IST" name="atestCaseResult" finished-at="2022-07-14T21:06:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Blank_Search_Test status=SUCCESS method=Test_Search.Blank_Search_Test()[pri:3, instance:Test.Test_Search@41c89d2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+      </class> <!-- Test.Test_Search -->
+      <class name="Test.Login_Test">
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:05 IST" name="initializedriver" finished-at="2022-07-14T21:06:06 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:06 IST" name="openurl" finished-at="2022-07-14T21:06:10 IST" duration-ms="3962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:10 IST" name="startTest" finished-at="2022-07-14T21:06:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Login_Test.ValidLoginTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ValidLoginTest()[pri:1, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:10 IST" name="ValidLoginTest" finished-at="2022-07-14T21:06:10 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:10 IST" name="atestCaseResult" finished-at="2022-07-14T21:06:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginTest status=SUCCESS method=Login_Test.ValidLoginTest()[pri:1, instance:Test.Login_Test@78d39a69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:10 IST" name="endTest" finished-at="2022-07-14T21:06:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:10 IST" name="testClose" finished-at="2022-07-14T21:06:11 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:11 IST" name="initializedriver" finished-at="2022-07-14T21:06:11 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:11 IST" name="openurl" finished-at="2022-07-14T21:06:18 IST" duration-ms="7007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:18 IST" name="startTest" finished-at="2022-07-14T21:06:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Login_Test.InValidLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InValidLoginTest()[pri:2, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:18 IST" name="InValidLoginTest" finished-at="2022-07-14T21:06:18 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:18 IST" name="atestCaseResult" finished-at="2022-07-14T21:06:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidLoginTest status=SUCCESS method=Login_Test.InValidLoginTest()[pri:2, instance:Test.Login_Test@78d39a69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:18 IST" name="testClose" finished-at="2022-07-14T21:06:19 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:18 IST" name="endTest" finished-at="2022-07-14T21:06:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:19 IST" name="initializedriver" finished-at="2022-07-14T21:06:19 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:19 IST" name="openurl" finished-at="2022-07-14T21:06:26 IST" duration-ms="6778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:26 IST" name="startTest" finished-at="2022-07-14T21:06:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Login_Test.IncorrectPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="IncorrectPassword()[pri:3, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:26 IST" name="IncorrectPassword" finished-at="2022-07-14T21:06:26 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectPassword -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:26 IST" name="atestCaseResult" finished-at="2022-07-14T21:06:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IncorrectPassword status=SUCCESS method=Login_Test.IncorrectPassword()[pri:3, instance:Test.Login_Test@78d39a69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:26 IST" name="testClose" finished-at="2022-07-14T21:06:26 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:26 IST" name="endTest" finished-at="2022-07-14T21:06:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:26 IST" name="initializedriver" finished-at="2022-07-14T21:06:27 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:27 IST" name="openurl" finished-at="2022-07-14T21:06:34 IST" duration-ms="6414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:34 IST" name="startTest" finished-at="2022-07-14T21:06:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Login_Test.IncorrectEmailId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="IncorrectEmailId()[pri:4, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:34 IST" name="IncorrectEmailId" finished-at="2022-07-14T21:06:34 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectEmailId -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:34 IST" name="atestCaseResult" finished-at="2022-07-14T21:06:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IncorrectEmailId status=SUCCESS method=Login_Test.IncorrectEmailId()[pri:4, instance:Test.Login_Test@78d39a69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:34 IST" name="endTest" finished-at="2022-07-14T21:06:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:34 IST" name="testClose" finished-at="2022-07-14T21:06:34 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="initializedriver()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:34 IST" name="initializedriver" finished-at="2022-07-14T21:06:35 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:35 IST" name="openurl" finished-at="2022-07-14T21:06:39 IST" duration-ms="3870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="BlankCredentials()[pri:5, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:39 IST" name="BlankCredentials" finished-at="2022-07-14T21:06:39 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankCredentials -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:39 IST" name="startTest" finished-at="2022-07-14T21:06:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Login_Test.BlankCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="atestCaseResult(org.testng.ITestResult)[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:39 IST" name="atestCaseResult" finished-at="2022-07-14T21:06:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlankCredentials status=SUCCESS method=Login_Test.BlankCredentials()[pri:5, instance:Test.Login_Test@78d39a69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atestCaseResult -->
+        <test-method is-config="true" signature="testClose()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:39 IST" name="testClose" finished-at="2022-07-14T21:06:39 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.Login_Test@78d39a69]" started-at="2022-07-14T21:06:39 IST" name="endTest" finished-at="2022-07-14T21:06:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Test.Login_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

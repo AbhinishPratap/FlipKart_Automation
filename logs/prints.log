@@ -1,0 +1,1 @@
+20:40:51.308 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 2 in 2 ms

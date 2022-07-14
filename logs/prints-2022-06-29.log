@@ -1,0 +1,4 @@
+12:10:59.860 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@3a4aadf8: 129 ms
+12:10:59.977 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5190010f: 113 ms
+12:10:59.977 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@673e76b3: 0 ms
+12:11:00.010 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:52859 : 1

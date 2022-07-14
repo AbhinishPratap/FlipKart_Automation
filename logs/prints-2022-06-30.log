@@ -1,0 +1,4 @@
+12:03:18.385 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5e13f156: 86 ms
+12:03:18.451 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@78fe204a: 63 ms
+12:03:18.453 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1290ed28: 1 ms
+12:03:18.470 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@41fa769c: 16 ms
